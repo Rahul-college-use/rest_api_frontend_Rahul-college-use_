@@ -39,6 +39,7 @@ const Home = () => {
                 toast.error("Incorrect password");
             }
         };
+    };
 
         const editStudents = async (id) => {
             if (window.confirm("Edit this student?")) {
@@ -86,6 +87,5 @@ const Home = () => {
                 </div>
             </main>
         );
-    };
 };
 export default Home;
